@@ -15,9 +15,18 @@ This guide tries to provide a high level map of these libararies so it would be 
 There are 2 major categories of libraries that you can probably skip: 
  - Libaraies which are alleady in the standard. Boost did such a good job that many of its libaries and ideas were introduced into the C++11 standard. So, unless you are writing code that has to be C++03 compatible, you can probably ignore these libaraies. Note that the list of libraries listed as: [TR1](https://www.boost.org/doc/libs/?view=filtered_std-tr1) and [Proposal](https://www.boost.org/doc/libs/?view=filtered_std-proposal) probably fall into this category, but some refinements are needed, and will be detailed below.
  - Libraries which are used internally by boost developers. Unless you want to contribute to boost (which is something you should do), you can probably skip these.
- 
+ ## In STD
+ - [Array](https://www.boost.org/doc/libs/1_69_0/doc/html/array.html): use ```std::array```
+ - [Bind](https://www.boost.org/doc/libs/1_69_0/libs/bind/doc/html/bind.html): use: ```std::bind```
+ - [Hash](https://www.boost.org/doc/libs/1_69_0/doc/html/hash.html): covered by ```std::hash``` for basic types, if you want to hash more complex stuff (e.g. STL containers), check the boost library
+ - [Function](https://www.boost.org/doc/libs/1_69_0/doc/html/function.html) and [Member Function](https://www.boost.org/doc/libs/1_69_0/doc/html/function.html): use ```std::function```
+ - [Random](https://www.boost.org/doc/libs/1_69_0/doc/html/boost_random.html): use the stuff from the ```<random>``` header file
+ - [Ref](https://www.boost.org/doc/libs/1_69_0/libs/core/doc/html/core/ref.html): use: ```std::ref``` and ```std::cref```
+ - [Regex](https://www.boost.org/doc/libs/1_69_0/libs/regex/doc/html/index.html): use the stuff from the ```<regex>``` header file
+ - [Tuple](https://www.boost.org/doc/libs/1_69_0/libs/tuple/doc/html/tuple_users_guide.html): use ```std::tuple```
+ ...
  # Learn as Needed
  These libraries cover specific subjects, if you are interested in tese subjects, you should look into them:
- 
+ ...
  # Should Learn
  ...
