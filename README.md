@@ -25,12 +25,17 @@ There are 2 major categories of libraries that you can probably skip:
  - [Regex](https://www.boost.org/doc/libs/1_69_0/libs/regex/doc/html/index.html): use the stuff from the ```<regex>``` header file
  - [Tuple](https://www.boost.org/doc/libs/1_69_0/libs/tuple/doc/html/tuple_users_guide.html): use ```std::tuple```
  - [Type Traits](https://www.boost.org/doc/libs/1_69_0/libs/type_traits/doc/html/index.html): use the stuff from the ```<type_traits>``` header file
-
+- [Unordered](https://www.boost.org/doc/libs/1_69_0/doc/html/unordered.html): use ```std::unordered_map/set/multimap/multiset```
+- [Chrono](https://www.boost.org/doc/libs/1_69_0/doc/html/chrono.html): mostly covered by ```std::chrono```, but add some "CPU clocks" for: real/user/system and procees/thread times.
+- [Thread](https://www.boost.org/doc/libs/1_69_0/doc/html/thread.html): use ```std::thread```, though there are some differences and extensions
+- [Ratio](https://www.boost.org/doc/libs/1_69_0/doc/html/ratio.html): use ```std::ratio```
 ...
 ## Boost Internals 
 ...
 # Learn as Needed
 These libraries cover specific subjects, if you are interested in tese subjects, you should look into them:
-...
+- [DLL](https://www.boost.org/doc/libs/1_69_0/doc/html/boost_dll.html): open DLLs, SOs etc.
+- [Stacktrace](https://www.boost.org/doc/libs/1_69_0/doc/html/stacktrace.html): creating backtrace of calls without using a debugger. May also look into C++11 nested exceptions for that
+
 # Should Learn
 ...
