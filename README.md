@@ -44,7 +44,7 @@ These libraries cover specific subjects, if you are interested in tese subjects,
 - [Compute](https://www.boost.org/doc/libs/1_69_0/libs/compute/doc/html/index.html): multi-core CPU/GPU computing based on OpenCL
 - [DLL](https://www.boost.org/doc/libs/1_69_0/doc/html/boost_dll.html): open DLLs, SOs etc.
 - [Stacktrace](https://www.boost.org/doc/libs/1_69_0/doc/html/stacktrace.html): creating backtrace of calls without using a debugger. May also look into C++11 nested exceptions for that
-
+- [Context](https://www.boost.org/doc/libs/1_69_0/libs/context/doc/html/index.html): __TODO__
 # Should Learn
 - [Algorithms](https://www.boost.org/doc/libs/1_69_0/libs/algorithm/doc/html/index.html): collection of algorithms (with no specific topic), some are already in the standard <algorithm> header, but some are not. Worthwhile checking what is there
  - [Any](https://www.boost.org/doc/libs/1_69_0/doc/html/any.html): the C++ way of implementing a C void* type (added to the standard in C++17)
@@ -53,9 +53,9 @@ These libraries cover specific subjects, if you are interested in tese subjects,
  - [Call Traits](https://www.boost.org/doc/libs/1_69_0/libs/utility/call_traits.htm): fixing the reference-to-reference problem
  - [Circular Buffer](https://www.boost.org/doc/libs/1_69_0/libs/function_types/doc/html/index.html): a.k.a ring buffer
  - [Compressed Pair](https://www.boost.org/doc/libs/1_69_0/libs/utility/doc/html/compressed_pair.html): space optimized ```std::pair``` in case only one of the elelemnts exist
- - [Concept Ceck](https://www.boost.org/doc/libs/1_69_0/libs/concept_check/concept_check.htm): allows for good practices when developing libraies with templated interfaces (going to be in the standard in c++20)
- - 
- 
- 
- 
- 
+ - [Concept Ceck](https://www.boost.org/doc/libs/1_69_0/libs/concept_check/concept_check.htm): allows for good practices when developing libraies with templated interfaces (going to be in the standard in C++20)
+ - [Container](https://www.boost.org/doc/libs/1_69_0/doc/html/container.html): these are variants on the STL containers, in implementations (and hence performance tradeoff) or in functionality. Good to know these, as sometimes, they are a better solution to theproblem at hand
+ - [Container Hash](https://www.boost.org/doc/libs/1_69_0/doc/html/hash.html): when the container itself needs to be hashed
+ - [Contract](https://www.boost.org/doc/libs/1_69_0/libs/contract/doc/html/index.html): interesting concept one should learn
+ - [Conversion](https://www.boost.org/doc/libs/1_69_0/doc/html/conversion.html): enhanced ```dynamic_cast```
+ - [Convert](https://www.boost.org/doc/libs/1_69_0/libs/convert/doc/html/index.html): type conversion library, mainly intended to extend ```boost::lexical_cast```. Note that since C++11, the standard ```<string>``` header also has ```to_string()``` functions, as well as ```stoxxx()``` string to integer ones
