@@ -35,13 +35,12 @@ There are 2 major categories of libraries that you can probably skip:
 ...
 ## Boost Internals 
 - [Compatibility](https://www.boost.org/doc/libs/1_69_0/libs/function_types/doc/html/index.html)
-- [Config](https://www.boost.org/doc/libs/1_69_0/libs/config/doc/html/index.html)
-- 
+- [Config](https://www.boost.org/doc/libs/1_69_0/libs/config/doc/html/index.html) 
 # Learn as Needed
 These libraries cover specific subjects, if you are interested in tese subjects, you should look into them:
 - [Accumulators](https://www.boost.org/doc/libs/1_69_0/doc/html/accumulators.html): "on the fly" statistics and accumulators with great optimizations for multiple stats on the same data set
 - [Beast](https://www.boost.org/doc/libs/1_69_0/libs/assign/doc/index.html): HTTP library
-- [Callable Traits](https://www.boost.org/doc/libs/1_69_0/libs/utility/call_traits.htm): allows for static cehcks of functions in the code. Has some overlap with [Function Types)(https://www.boost.org/doc/libs/1_69_0/libs/function_types/doc/html/index.html)
+- [Callable Traits](https://www.boost.org/doc/libs/1_69_0/libs/utility/call_traits.htm): allows for static cehcks of functions in the code. Has some overlap with [Function Types](https://www.boost.org/doc/libs/1_69_0/libs/function_types/doc/html/index.html)
 - [Compute](https://www.boost.org/doc/libs/1_69_0/libs/compute/doc/html/index.html): multi-core CPU/GPU computing based on OpenCL
 - [DLL](https://www.boost.org/doc/libs/1_69_0/doc/html/boost_dll.html): open DLLs, SOs etc.
 - [Stacktrace](https://www.boost.org/doc/libs/1_69_0/doc/html/stacktrace.html): creating backtrace of calls without using a debugger. May also look into C++11 nested exceptions for that
